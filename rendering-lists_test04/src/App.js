@@ -12,6 +12,9 @@ export default function Poem() {
       {poem.lines.map((line, index) =>
         <p key={index}>
           {line}
+          {index < poem.lines.length - 1 && (
+            <hr />
+          )}
         </p>
       )}
     </article>
