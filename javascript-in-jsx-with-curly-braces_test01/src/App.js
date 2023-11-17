@@ -1,6 +1,5 @@
 const person = {
   name: 'Gregorio Y. Zara',
-  imageURL: 'https://i.imgur.com/7vQD0fPs.jpg',
   theme: {
     backgroundColor: 'black',
     color: 'pink'
@@ -13,8 +12,8 @@ export default function TodoList() {
       <h1>{person.name}'s Todos</h1>
       <img
         className="avatar"
-        src={person.imageURL}
-        alt={person.name}
+        src="https://i.imgur.com/7vQD0fPs.jpg"
+        alt="Gregorio Y. Zara"
       />
       <ul>
         <li>Improve the videophone</li>
