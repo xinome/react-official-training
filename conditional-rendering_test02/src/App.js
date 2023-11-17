@@ -2,6 +2,9 @@ function Item({ name, importance }) {
   return (
     <li className="item">
       {name}
+      {importance !== 0 && (
+        <span> (Importance: {importance})</span>
+      )}
     </li>
   );
 }
