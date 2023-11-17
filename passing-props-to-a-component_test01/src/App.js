@@ -25,7 +25,7 @@ function Profile({
         </li>
         <li>
           <b>Awards: {awards.length} </b> 
-          {awards}
+          ({awards.join(', ')})
         </li>
         <li>
           <b>Discovered: </b>
@@ -44,14 +44,22 @@ export default function Gallery() {
         name="Maria Skłodowska-Curie"
         imageId="szV5sdG"
         profession="physicist and chemist"
-        awards="(Nobel Prize in Physics, Nobel Prize in Chemistry, Davy Medal, Matteucci Medal)"
+        awards={[
+          "Nobel Prize in Physics", 
+          "Nobel Prize in Chemistry", 
+          "Davy Medal", 
+          "Matteucci Medal"
+        ]}
         discovered="polonium (chemical element)"
       />
       <Profile
         name="Katsuko Saruhashi"
         imageId="YfeOqp2"
         profession="geochemist"
-        awards="(Miyake Prize for geochemistry, Tanaka Prize)"
+        awards={[
+          "Miyake Prize for geochemistry", 
+          "Tanaka Prize"
+        ]}
         discovered="a method for measuring carbon dioxide in seawater"
       />
     </div>
