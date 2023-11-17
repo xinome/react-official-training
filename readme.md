@@ -26,15 +26,15 @@ https://ja.react.dev/learn/tutorial-tic-tac-toe#setup-for-the-tutorial
 
 ## UIの記述
 
-- (初めてのコンポーネント)[https://ja.react.dev/learn/your-first-component]
+- [初めてのコンポーネント](https://ja.react.dev/learn/your-first-component)
   - your-first-component
-- (コンポーネントのインポートとエクスポート)[https://ja.react.dev/learn/importing-and-exporting-components]
+- [コンポーネントのインポートとエクスポート](https://ja.react.dev/learn/importing-and-exporting-components)
   - importing-and-exporting-components
-- (JSX でマークアップを記述する)[https://ja.react.dev/learn/writing-markup-with-jsx]
-- (JSX に波括弧で JavaScript を含める)[https://ja.react.dev/learn/javascript-in-jsx-with-curly-braces]
-- (コンポーネントに props を渡す)[https://ja.react.dev/learn/passing-props-to-a-component]
-- (条件付きレンダー)[https://ja.react.dev/learn/conditional-rendering]
-- (リストのレンダー)[https://ja.react.dev/learn/rendering-lists]
-- (コンポーネントを純粋に保つ)[https://ja.react.dev/learn/keeping-components-pure]
-- (UI をツリーとして理解する)[https://ja.react.dev/learn/understanding-your-ui-as-a-tree]
+- [JSX でマークアップを記述する](https://ja.react.dev/learn/writing-markup-with-jsx)
+- [JSX に波括弧で JavaScript を含める](https://ja.react.dev/learn/javascript-in-jsx-with-curly-braces)
+- [コンポーネントに props を渡す](https://ja.react.dev/learn/passing-props-to-a-component)
+- [条件付きレンダー](https://ja.react.dev/learn/conditional-rendering)
+- [リストのレンダー](https://ja.react.dev/learn/rendering-lists)
+- [コンポーネントを純粋に保つ](https://ja.react.dev/learn/keeping-components-pure)
+- [UI をツリーとして理解する](https://ja.react.dev/learn/understanding-your-ui-as-a-tree)
 
