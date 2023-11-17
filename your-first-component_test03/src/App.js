@@ -1,4 +1,5 @@
-function profile() {
+// React コンポーネントの名前は大文字で始める必要があります。
+function Profile() {
   return (
     <img
       src="https://i.imgur.com/QIrZWGIs.jpg"
@@ -11,9 +12,9 @@ export default function Gallery() {
   return (
     <section>
       <h1>Amazing scientists</h1>
-      <profile />
-      <profile />
-      <profile />
+      <Profile />
+      <Profile />
+      <Profile />
     </section>
   );
 }
