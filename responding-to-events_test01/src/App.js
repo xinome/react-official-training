@@ -9,8 +9,12 @@ export default function LightSwitch() {
   }
 
   return (
-    <button onClick={handleClick()}>
+    <button onClick={handleClick}>
       Toggle the lights
     </button>
   );
 }
+
+/*
+onClickのpropsに関数を渡すことで、ボタンがクリックされたときに関数が呼び出されるようになる。
+*/
