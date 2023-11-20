@@ -1,13 +1,21 @@
 export default function Clock({ time }) {
   let hours = time.getHours();
+  let className;
+
   if (hours >= 0 && hours <= 6) {
-    document.getElementById('time').className = 'night';
+    className = 'night';
   } else {
-    document.getElementById('time').className = 'day';
+    className = 'day';
   }
+
   return (
-    <h1 id="time">
+    <h1 className={className}>
       {time.toLocaleTimeString()}
     </h1>
   );
 }
+
+/*
+classNameプロパティで、CSSのクラスを指定
+idは不要のため削除
+*/
