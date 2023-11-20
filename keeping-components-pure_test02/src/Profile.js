@@ -4,27 +4,34 @@ import { getImageUrl } from './utils.js';
 let currentPerson;
 
 export default function Profile({ person }) {
-  currentPerson = person;
+  // currentPerson = person;
   return (
     <Panel>
-      <Header />
-      <Avatar />
+      <Header target={person} />
+      <Avatar target={person} />
     </Panel>
   )
 }
 
-function Header() {
-  return <h1>{currentPerson.name}</h1>;
+function Header(target) {
+  return <h1>{target.name}</h1>;
 }
 
-function Avatar() {
+function Avatar({ target }) {
   return (
     <img
       className="avatar"
-      src={getImageUrl(currentPerson)}
-      alt={currentPerson.name}
+      src={getImageUrl(target)}
+      alt={target.name}
       width={50}
       height={50}
     />
   );
 }
+
+/*
+ProfileのpropsをHeaderとAvatarに分割することで、
+Profileのpropsが変更されたときに、HeaderとAvatarのpropsが変更されないようにする。
+currentPersonを使わないようにすることで、Profileのpropsが変更されたときに、
+HeaderとAvatarのpropsが変更されないようにする。
+*/
